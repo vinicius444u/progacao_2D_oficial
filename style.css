@@ -27,17 +27,32 @@
 .escola{
     background-image: linear-gradient(#383d58,#00c0eb);
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    ;
     padding: 24px 0;
 }
+
+
 .escola-conteudo{
     width: 35%;
-    
     
 }
 
 .escola-titulo{
     padding: 24px 0;
+
+}
+
+.estudante-div{
+    text-align: center;
+}
+.estudante-titulo{
+text-align: center;
+padding: 50px 0;
+
+}
+
+.estudante-todos{
+display: grid;
+grid-template-columns: 20% 20% 20% 20%;
+
 }
